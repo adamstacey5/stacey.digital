@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Stacey.digital</p>
+    <Container>
+      <header>
+        <h1>Stacey.digital</h1>
       </header>
-    </div>
+    </Container>
   );
 }
 
